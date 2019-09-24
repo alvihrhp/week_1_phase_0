@@ -1,0 +1,141 @@
+/* CSS File*/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-head{
+    background-color: black;
+    overflow: hidden;
+}
+
+.navbar-head a{
+    float: right;
+    color: white;
+    text-align: center;
+    padding: 23px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.banner-img{
+    background: url(../Webiste-Personal/img/banner-1.jpg) no-repeat center center;
+    display: table;
+    background-size: cover;
+    height:550px;
+    width: 100%;
+}
+
+.banner-layer{
+    background-color: rgba(0, 0, 0, 0.7);
+    height: 550px;
+    width: 100%;
+}
+
+.banner-word{
+    padding: 17% 25%;
+}
+
+.banner-word h1{
+    text-align: center;
+    display: inline;
+    font-size: 45px;
+    font-weight: bold;
+    color: aqua;
+}
+
+.banner-word h2{
+    padding-top: 2%;
+    text-align: center;
+    display: inline-block;
+    color: #ffffff;
+    font-weight: 300;
+    opacity: .5;
+}
+
+.container-about{
+    width: 100%;
+    padding-top: 3%;
+    background-color: #000000;
+}
+
+.about-title h1{
+    text-align: center;
+    color: #ffffff;
+}
+
+.about-content{
+    padding-top: 1%;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 3%;
+}
+
+.about-content h4{
+    word-spacing: 0.4rem;
+    text-align: justify;
+    color: #ffffff;
+}
+
+.container-contact{
+    width: 100%;
+    padding-top: 3%;  
+    padding-bottom: 3%;  
+}
+
+.contact-title h1{
+    text-align: center;
+}
+
+.contact-content{
+    text-align: center;
+    padding-top: 1%;
+}
+
+.contact-content input{
+    width: 300px;
+    height: 40px;
+}
+
+.contact-content label{
+    text-align: justify;
+}
+
+.label-phone{
+    position: relative;
+    right: 10px;
+}
+
+.input-phone{
+    position: relative;
+    right: 10px;
+}
+
+.label-reason{
+    position: relative;
+    right: 49px;
+}
+
+.input-reason{
+    position: relative;
+    right: 49px;
+}
+
+.contact-content textarea{
+    width: 300px;
+}
+
+.contact-button{
+    text-align: center;
+    padding-top: 3%;
+}
+
+.contact-button button{
+    height: 30px;
+    width: 100px;
+    border-radius: 10px;
+    background-color: aqua;
+    font-size: 15px;
+}
